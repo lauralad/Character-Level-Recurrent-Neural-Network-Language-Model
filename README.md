@@ -2,13 +2,13 @@
  Comp 545 - Natural Language Processing
 
 ## Description
-This project involves the implementation of a character-based RNN language model that learns to predict the next character in a sequence, given the previous characters. The model was trained on various literary texts, enabling it to generate text that mimics the style and context of the source material.
+This project involves the implementation of character-based RNN and LSTM language models that learn to predict the next character in a sequence, given the previous characters. The models were trained on Shakespeare and Sherlock texts, enabling them to generate text that mimics the style and context of the source material.
 
 ### Objectives:
 * Implement a character sequence data loader to process text data into trainable sequences.
-* Develop a Character RNN using PyTorch to learn and predict character sequences.
-* Explore the model's ability to generate coherent and contextually relevant text as it trains.
-* Evaluate the impact of different parameters (like temperature and top_k filtering) on the diversity and quality of generated text.
+* Develop a Character RNN and LSTM using PyTorch to learn and predict character sequences.
+* Explore the models' ability to generate coherent and contextually relevant text as they train, then compare their results.
+* Evaluate the impact of different parameters (like temperature and top_k filtering) on the diversity and quality of the generated text.
 
 ### Technologies Used:
 * Programming Language: Python
